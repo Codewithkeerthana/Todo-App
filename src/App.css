@@ -1,0 +1,42 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: pink;
+}
+.App{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.card {
+  display:flex;
+  flex-direction: column;
+}
+p ,input{
+  border-style: outset ;
+  border-width: 3px;
+  padding: 10px;
+  border-color: BLACK;
+  background-color: #FF0099;
+  display:flex;
+   align-items: center;
+  justify-content: center;
+  width: 100%; 
+  color: white;
+}
+button{
+  border-style: outset ;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 10px;
+  border-color: pink;
+  background-color: #FF0099;
+  color: white;
+}
+
+
